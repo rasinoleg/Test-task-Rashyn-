@@ -1,0 +1,24 @@
+{ "name": "Test-task-Rashyn-public",
+"private": true,
+"version": "0.0.0",
+"type": "module",
+"homepage": "https://github.com/rasinoleg/Test-task-Rashyn-public/",
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "prop-types": "^15.8.1"
+  },
+  "dependencies": {
+    "@redux-devtools/extension": "^3.3.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.2",
+    "clsx": "^2.0.0",
+    "formik": "^2.4.5",
+    "modern-normalize": "^2.0.0",
+    "notiflix": "^3.2.6",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.3",
+    "react-redux": "^9.0.2",
+    "react-router-dom": "^6.20.1",
+    "redux": "^5.0.0"
+  }
+}
