@@ -1,4 +1,4 @@
-import { fetchCars, fetchSomeCars, updateCar } from './carsOperations';
+import { fetchCars, fetchSomeCars } from './carsOperations';
 
 import { isAnyOf } from '@reduxjs/toolkit';
 

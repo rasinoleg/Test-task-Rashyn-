@@ -90,16 +90,11 @@ export const SerchForm = () => {
     >
       {props => {
         const {
-          values,
           touched,
           errors,
           dirty,
-          isSubmitting,
-          handleChange,
           setFieldValue,
-          handleBlur,
           handleSubmit,
-          handleReset,
           isValid,
           resetForm,
         } = props;

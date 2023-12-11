@@ -27,7 +27,8 @@ export const selectFilteredCars = createSelector(
       : carsFilteredByModel;
     const carsFilteredByMileage =
       mileageFrom || mileageTo
-        ? carsFilteredByPrice.filter(car => {
+        ? // eslint-disable-next-line array-callback-return
+          carsFilteredByPrice.filter(car => {
             if (mileageFrom && mileageTo)
               return car.mileage >= mileageFrom && car.mileage <= mileageTo;
             if (mileageFrom && !mileageTo) return car.mileage >= mileageFrom;
