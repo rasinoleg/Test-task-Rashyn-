@@ -1,5 +1,4 @@
-import { CarsGallary } from '../../components/CarsGallary/CarsGallary';
-
+import { CarsGallary } from 'components/CarsGallary/CarsGallery';
 import { PageWrapper } from './FavouritePage.styled';
 
 export default function FavouritePage() {
