@@ -5,7 +5,7 @@ import {
   SliderContainer,
 } from './MainPage.styled';
 import { Link } from 'react-router-dom';
-import { CarsGallary } from '../../components/CarsGallary/CarsGallary';
+import { CarsGallary } from '../../components/CarsGallary/CarsGallery';
 import { useSelector } from 'react-redux';
 import { selectRecent } from '../../redux/likes/likesSelectors';
 

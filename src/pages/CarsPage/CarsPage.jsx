@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { CarsGallary } from '../../components/CarsGallary/CarsGallary';
-import { SerchForm } from '../../components/SerchForm/SerchForm';
+import { CarsGallary } from '../../components/CarsGallary/CarsGallery';
+import { SerchForm } from '../../components/SercForm/SerchForm';
 import { ContentWrapper } from '../MainPage/MainPage.styled';
 import { useEffect } from 'react';
 import { fetchSomeCars } from '../../redux/cars/carsOperations';

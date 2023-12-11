@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { SideBarWrapper } from './SideBar.styled';
-import { SideBarSlider } from './SideBarForm/SIdeBarSlider';
+import { SideBarSlider } from './SideBarForm/SldeBarSlider';
 import { SideBarForm } from './SideBarForm/SideBarForm';
 import { useMediaQuery } from 'react-responsive';
 

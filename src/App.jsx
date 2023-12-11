@@ -13,7 +13,7 @@ import GlobalStyle from './styles/globalStyles';
 function App() {
   return (
     
-    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/wheels4rent/'}>
+    <BrowserRouter>
       <GlobalStyle />
       <Routes>
         <Route path="/" element={<SharedLayout />}>
@@ -29,3 +29,6 @@ function App() {
 }
 
 export default App;
+
+
+
